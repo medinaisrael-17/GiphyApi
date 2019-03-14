@@ -27,6 +27,7 @@ $(document).ready(function(){
             for (var i = 0; i < results.length; i++) {
                 //make a div for each gif
                 var gifDiv = $("<div>");
+                gifDiv.attr("class", "gif-div")
                 //give each gif some text which will be rating
                 var p = $("<p>");
                 p.text("Rating: " + results[i].rating);
