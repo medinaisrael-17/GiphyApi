@@ -1,0 +1,56 @@
+#buttonsView {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background: transparent;
+    
+}
+#giphyForm {
+    margin-right: 10px;
+    float: right
+}
+
+button.gif-button.btn.btn-primary {
+    margin-right: 10px;
+    background: coral;
+    border: black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 10px;
+}
+#gif-input {
+    margin-bottom: 15px;
+    width: 400px;
+}
+
+#addGif {
+    background: coral;
+    border: black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+html {
+    background: url("https://www.redwallpapers.com/download/original/mesh-triangles-surface-colorful-free-stock-photos-images-hd-wallpaper.jpg")
+    no-repeat center center fixed;
+}
+body {
+    background: transparent;
+}
+
+label {
+    font-size: 25px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-left: 10px;
+    color: white
+}
+
+img {
+    margin-left: 10px;
+}
+
+
+

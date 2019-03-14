@@ -3,7 +3,9 @@ $(document).ready(function(){
 
 
     //Lets make an array of animals we want to display first
-    var gifs = ["cow", "chicken", "turtle", "otter"];
+    var gifs = ["cow", "chicken", "turtle", "otter", "monkey", "elephant", "dog", "cat", "gerbil", "hawk", 
+    "falcon", "dolphin", "whale", "fish", "lion", "puppy", "lizard", "owl", "snake", "iguana", "panther", 
+    "jaguar"];
 
     //this function is what displays the gifs
     function displayGifs(animal) {
@@ -55,6 +57,7 @@ $(document).ready(function(){
             var b = $("<button>");
             //give each button the class = gif-button
             b.addClass("gif-button");
+            b.addClass("btn btn-primary");
             //give each button the attr data-animal = the name of the gif
             b.attr("data-animal", gifs[i]);
             b.text(gifs[i]);
